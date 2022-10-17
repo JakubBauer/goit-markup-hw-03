@@ -19,11 +19,16 @@ ul{
 }
 header{
   display: flex;
-  justify-content: space-between;
 }
 header menu{
   display: flex;
   justify-content:space-between ;
+}
+.headercontact{
+  text-align: end;
+  display: flex;
+  gap: 50px;
+  
 }
 .filtrs{
   display: flex;
@@ -65,6 +70,7 @@ header menu{
   cursor: pointer;
   text-align: center;
 }
+
 .contact:hover {
   color: #2196f3;
 }
@@ -75,7 +81,12 @@ header menu{
   cursor: pointer;
   text-align: center;
   border: none;
+  border-radius: 4px;
 
+}
+.mainitem{
+  padding-left: 215px;
+  padding-right: 215px;
 }
 .filtr:hover {
   background-color: #2196f3;
@@ -101,8 +112,8 @@ header menu{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  margin-right: auto;
-  margin-left: auto;
+  text-align: center;
+
 }
 .mainbutton {
   font-family: 'Roboto', sans-serif;
@@ -110,16 +121,42 @@ header menu{
   font-size: 16px;
   line-height: 1.875;
   cursor: pointer;
-  margin-right: auto;
-  margin-left: auto;
-}
-.mainbutton:hover {
   background-color: #2196f3;
   color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
 }
+.mainimg{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 188px;
+  flex-basis: calc((100% - 60px) / 3);
+}
+.whatwedo{
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+.team{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.teamimg{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+
 .lorem{
   display: flex;
+  justify-content: center;
   justify-content: space-between;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 .text {
   font-size: 16px;
@@ -133,6 +170,9 @@ header menu{
 .textlorem {
   font-size: 14px;
   line-height: 1, 71;
+  padding-bottom: 94px;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 90px) / 4);
 }
 .fotter {
   background-color: #2f303a;
