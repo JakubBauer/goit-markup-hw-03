@@ -16,6 +16,10 @@
   .container{
     width: 1200px;
   }
+  section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   ul{
     list-style-type: none;
   }
@@ -116,7 +120,6 @@
     font-size: 14px;
     line-height: 1, 71;
     color:var(--textlorem-color);
-    padding-bottom: 94px;
     flex-wrap: wrap;
     flex-basis: calc((100% - 90px) / 4);
   }
@@ -132,7 +135,6 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 188px;
     flex-basis: calc((100% - 60px) / 3);
   }
   .team{
@@ -141,7 +143,6 @@
     font-size: 36px;
     line-height: 1,17;
     text-align: center;
-    margin-bottom: 50px;
   }
   .teamimg{
     display: flex;
@@ -186,7 +187,8 @@
     display: flex;
     gap: 8px;
     justify-content: center;
-    padding-top: 100px;
+    border-bottom: #ffffff;
+    
   }
   .filtr {
     font-weight: 500;
@@ -205,6 +207,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    border-bottom: #ffffff;
    }
    .picture{
     flex-basis: calc((100% - 60px) / 3);
