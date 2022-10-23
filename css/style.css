@@ -152,6 +152,11 @@ justify-content: space-between;
     flex-basis: calc((100%-90px)/4);
 
   }
+  .mi{
+    max-width: 100%;
+    width: 100%;
+  margin: auto;
+  }
   /* Początek footera */
   .fotter {
     background-color: #2f303a;
@@ -212,7 +217,12 @@ justify-content: space-between;
   .portfolioimg{
     flex-basis: calc((100% - 60px) / 3);
    }
-  
+  .pi{
+    max-width: 100%;
+    width: 100%;
+    height:auto;
+
+  }
    
    .imgname {
     font-weight: 700;
