@@ -6,6 +6,7 @@
     --main-color: #212121;
     --body-color:#212121;
     --textlorem-color:#757575;
+    --team-color:grey;
   }
   body {
     color: var(--body-color);
@@ -17,6 +18,7 @@
   .section{
     padding-top: 94px;
     padding-bottom: 94px;
+  
   }
   ul{
     list-style-type: none;
@@ -81,13 +83,13 @@ justify-content: space-between;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-   max-width: 1200px;
+   width: 1200px;
    margin: 0 auto;
    text-align: center;
    
   }
   .mainbutton {
-    max-width: 1200px;
+    width: 1200px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -135,7 +137,9 @@ justify-content: space-between;
     gap: 30px;
     flex-basis: calc((100% - 60px) / 3);
   }
-  
+  .team{
+    background-color: var(--team-color) ;
+  }
   .team-text{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -230,7 +234,7 @@ justify-content: space-between;
     line-height: 2;
   }
   .container{
-    max-width: 1200px;
-    
+    width: 1200px;
+    margin: 0 auto;
   }
   
