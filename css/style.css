@@ -6,7 +6,7 @@
     --main-color: #212121;
     --body-color:#212121;
     --textlorem-color:#757575;
-    --team-color:grey;
+    --team-color:#F5F4FA;
   }
   body {
     color: var(--body-color);
@@ -74,7 +74,8 @@ justify-content: space-between;
   /* Heder i ogólne body */
   .main {
     background-color: var(--main-color);
-    
+    height: 600px;
+   
 
   }
   .maintext {
@@ -86,10 +87,8 @@ justify-content: space-between;
    width: 1200px;
    margin: 0 auto;
    text-align: center;
-   
   }
   .mainbutton {
-    width: 1200px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
