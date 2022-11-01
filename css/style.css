@@ -79,6 +79,8 @@ justify-content: space-between;
 
   }
   .maintext {
+    display: flex;
+   align-items: center;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -86,7 +88,7 @@ justify-content: space-between;
     line-height: 1.36;
    width: 1200px;
    margin: 0 auto;
-   text-align: center;
+   
   }
   .mainbutton {
     font-family: 'Roboto', sans-serif;
@@ -153,12 +155,16 @@ justify-content: space-between;
   }
   .imgteam{
     flex-basis: calc((100%-90px)/4);
+    padding: 0;
 
   }
   .mi{
     max-width: 100%;
     width: 100%;
-  margin: auto;
+    height: auto;
+  }
+  .teamsignature{
+    background-color: #ffffff;
   }
   /* Początek footera */
   .fotter {
