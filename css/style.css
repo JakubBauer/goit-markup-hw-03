@@ -75,8 +75,6 @@ justify-content: space-between;
   .main {
     background-color: var(--main-color);
     height: 600px;
-   
-
   }
   .maintext {
     display: flex;
